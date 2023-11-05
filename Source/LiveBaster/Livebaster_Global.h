@@ -1,0 +1,12 @@
+#ifndef LIVEBASTER_GLOBAL_H
+#define LIVEBASTER_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(LIVEBASTER_LIBRARY)
+#  define LIVEBASTERSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define LIVEBASTERSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // LIVEBASTER_GLOBAL_H

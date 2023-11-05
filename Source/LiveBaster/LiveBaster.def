@@ -1,0 +1,18 @@
+LIBRARY LiveBaster64
+
+EXPORTS
+	LbLoadCore
+	LbFreeCore
+	LbAddControl
+	LbDeleteControl
+	LbSave
+	LbLoad
+	LbAddParameter
+	LbChangeParameter
+	LbDeleteParameter
+	LbGetParameter
+	LbUpdateMotorAction
+	LbEyeAddFacet
+	LbEyeAddAction
+	LbEyeFacetMakeAction
+	LbEyeMakeAction
